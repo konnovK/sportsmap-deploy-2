@@ -13,6 +13,7 @@ services:
       - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
       - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
       - AWS_SSL=true
+      - S3_BUCKET_NAME="sportsmap.spb.ru"
     depends_on:
       - db
       - s3
