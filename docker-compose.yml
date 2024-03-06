@@ -12,6 +12,7 @@ services:
       - AWS_URL="http://s3:9000"
       - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
       - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - AWS_SSL=true
     depends_on:
       - db
       - s3
